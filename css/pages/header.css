@@ -1,0 +1,108 @@
+.header{
+    max-width: 100%;
+    width: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.nav{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 70px;
+    width: 170px;
+}
+
+.search__btn{
+    height: 20px;
+    width: 20px;
+    background: none;
+    outline: none;
+    border: none;
+    background-image: url("/images/search.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.menu__title{
+    font-size: 24px;
+    font-weight: 300;
+    color: var(--primary-color);
+}
+
+.menu__btn{
+    height: 20px;
+    width: 20px;
+    background: none;
+    outline: none;
+    border: none;
+    background-image: url("/images/menu.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+/* Это Hero */
+
+.hero{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hero__contain{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero__subtitle{
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.hero__title{
+    font-size: 74px;
+    font-weight: 500;
+}
+
+.hero__descr{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.hero__text{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.hero__avatar{
+    width: 450px;
+    height: 500px;
+}
+
+.social{
+    margin-top: 56px;
+}
+
+.social__link{
+    margin-right: 32px;
+}
+
