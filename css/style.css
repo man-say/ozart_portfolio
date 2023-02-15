@@ -1,6 +1,9 @@
 @import url(vars.css);
 @import url(reset.css);
 @import url(./pages/header.css);
+@import url(./pages/about_me.css);
+@import url(./pages/wrapper.css);
+
 
 
 body{

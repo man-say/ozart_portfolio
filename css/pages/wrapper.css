@@ -1,0 +1,89 @@
+.wrapper{
+    margin: 0 auto;
+    max-width: 1260px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin-bottom: 80px;
+    font-size: 54px;
+    font-weight: 500;
+}
+
+.wrapper__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.wrapper__box{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--grey);
+}
+
+.wrapper__box:hover{
+    transition: all .4s ease-in-out;
+    background: var(--primary-color);
+    color: var(--second-color);
+}
+
+.wrapper__title{
+    width: 50%;
+    margin-bottom: 20px;
+    font-size: 46px;
+    font-weight: 400;
+}
+
+.wrapper__text{
+    width: 90%;
+    margin-bottom: 60px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.wrapper__link, button{
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.wrapper__link, button:hover{
+    transition: all .4s ease-in-out;
+    color: var(--second-color);
+}
+
+.scroll{
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll__btn{
+    margin-left: 15px;
+    width: 15px;
+    height: 15px;
+    background-image: url("/images/scroll-none.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.scroll__btn:hover{
+    width: 17px;
+    height: 17px;
+    background-image: url("/images/scroll-active.svg");
+    transition: all .2s ease-in-out;
+}
